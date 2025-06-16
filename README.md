@@ -91,8 +91,10 @@ Where `number` is a digit from 0 to 255. An optional name can follow to highligh
 
 ---
 
+## Problems with Effects
+
 <details>
-<summary><strong> Problems with Effects</strong></summary>
+<summary><strong> Effect Freezes / Random LEDs Light Up </strong></summary>
 
 #### 🟥 Effect Freezes / Random LEDs Light Up
 
@@ -101,7 +103,12 @@ Where `number` is a digit from 0 to 255. An optional name can follow to highligh
 - The recorder software is not compatible with `npcap`. Uninstall it and install `WinPcap`.
 - You can check installed drivers via your system’s apps list.
 
-#### ⚠️ Effect Only Works on Part of Product
+ </details>
+ 
+---
+
+<details>
+<summary><strong> Effect Only Works on Part of Product </strong></summary>
 
 Possible causes:
 1. Wrong Madrix project used.  
@@ -113,19 +120,49 @@ Possible causes:
 - Confirm the SD card contains the proper `config.txt`.
 - Ensure your Madrix license covers enough universes. You can verify this in the **DMX Devices** tab (F4 or Preferences → Device Manager).
 
+ </details>
+ 
+---
+
+<details>
+<summary><strong> “Too Long Delay” When Recording Effect </strong></summary>
+
 #### 🕒 “Too Long Delay” When Recording Effect
 
 - Cause: unstable network (e.g., Wi-Fi), leading to packet loss.
 - Solution: try recording again, shorten the effect, or use a wired connection.
+
+</details>
+
+---
+
+<details>
+<summary><strong> Madrix Network Config Breaks </strong></summary>
 
 #### ⚙️ Madrix Network Config Breaks
 
 - If you open a new project without restarting Madrix, network settings may merge and cause issues.
 - Solution: fully close Madrix before opening a new project.
 
+  </details>
+
+---
+
+<details>
+<summary><strong>ArtNet Counter Does Not Increase </strong></summary>
+   
 #### ❌ ArtNet Counter Does Not Increase
 
+Most likely, ArtNet is disabled in your matrix.
+You may have forgotten to enable ArtNet support in Matrix. To turn it on, open the device
+The manager window (by pressing F4 or by selecting Settings -> Device Manager). Go to the Art-Nettab tab
+and check the appropriate box.
+
+![Vot takie pirogi](images/ArtNet.png)
+
 </details>
+
+---
 
 ## Breakdowns
 
