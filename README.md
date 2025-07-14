@@ -103,6 +103,8 @@ Where `number` is a digit from 0 to 255. An optional name can follow to highligh
 - The recorder software is not compatible with `npcap`. Uninstall it and install `WinPcap`.
 - You can check installed drivers via your system’s apps list.
 
+- The `log.txt` is missing. Create an empry file `log.txt`.
+
  </details>
  
 ---
