@@ -104,6 +104,7 @@ Where `number` is a digit from 0 to 255. An optional name can follow to highligh
 - You can check installed drivers via your system’s apps list.
 
 - The `log.txt` is missing. Create an empry file `log.txt`.
+- if have glitches and nouses, replace batteries with fully charged or new.
 
  </details>
  
